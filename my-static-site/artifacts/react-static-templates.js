@@ -7,7 +7,7 @@ export default {
 '../src/pages/about.js': require('../src/pages/about.js').default,
 '../src/pages/blog.js': require('../src/pages/blog.js').default,
 '../src/pages/index.js': require('../src/pages/index.js').default,
-'../src/pages/new.js': require('../src/pages/new.js').default,
+'../src/pages/welcome.js': require('../src/pages/welcome.js').default,
 '../src/containers/Post': require('../src/containers/Post').default
 }
 
