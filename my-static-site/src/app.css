@@ -39,3 +39,17 @@ nav a {
 .content {
   padding: 1rem;
 }
+
+/* Join Us Button */
+#join-button {
+  background: rgba(0, 0, 0);
+  background: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+
+#join-button:hover {
+  background: white;
+  color: black;
+  border-color: white;
+}

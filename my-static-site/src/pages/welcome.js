@@ -1,6 +1,8 @@
 import React from 'react'
 
-import backgroundImage from '../images/welcome-banner.jpg'
+import { Link } from 'components/Router'
+
+import backgroundImage from '../images/final-render-cool.png'
 
 const welcomeStyle = {
   // Makes the background image cover the full page.
@@ -17,20 +19,32 @@ const welcomeStyle = {
 }
 
 const titleStyle = {
+
+}
+
+const linkStyle = {
+  "textDecoration": "none",
+
   // Adds a contrast for the white text.
-  "background": "rgba(0, 0, 0)",
-  "background": "rgba(0, 0, 0, 0.40)",
-  "paddingLeft": "20px",
-  "paddingRight": "20px"
+  "paddingLeft": "10px",
+  "paddingRight": "10px",
+  "paddingTop": "10px",
+  "paddingBottom": "10px",
+  "borderStyle": "solid",
+  "width": "25%",
+  "marginWidth": "auto",
+  "marginTop" : "30px",
+
+  "display": "inline-block"
 }
 
 
 export default function Welcome() {
   return (
     <div style={welcomeStyle}>
-      <div class="text-center text-white" style={titleStyle}>
+      <div className="text-center text-white">
         <h1
-          class="display-3  font-weight-bold"
+          className="display-3  font-weight-bold"
         >
           UC San Diego <br/>
           Solar Car Team
@@ -38,6 +52,9 @@ export default function Welcome() {
         <h5>
           We are Engineers for a Sustainable World
         </h5>
+        <Link to="/" id="join-button" style={linkStyle}>
+            JOIN US
+        </Link>
       </div>
     </div>
   )
