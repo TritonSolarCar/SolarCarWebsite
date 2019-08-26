@@ -2,7 +2,7 @@ import React from 'react'
 import { Head } from 'react-static'
 import Navbar from '../components/Navbar'
 
-export default function Welcome() {
+export default function Donations() {
   return (
     <div>
       <Head>
