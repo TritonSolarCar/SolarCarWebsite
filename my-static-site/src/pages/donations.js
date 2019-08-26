@@ -1,7 +1,7 @@
 import React from 'react'
 import { Head } from 'react-static'
 import Navbar from '../components/Navbar'
-import SponsorshipPackage from '../components/SponsorshipPackage'
+import SponsorshipPackage from '../components/SponsorshipPackage/'
 import PayPalButton from '../components/PayPalButton'
 
 
