@@ -1,2 +1,3 @@
 # Temporary Dir for Dev Server.
 tmp/*
+artifacts/*
