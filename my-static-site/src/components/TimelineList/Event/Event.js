@@ -19,7 +19,7 @@ export default function Event(props) {
                 <small className="text-muted">{ props.date }</small>
               </Card.Text>
               <Card.Text>
-              { props.description }
+                { props.description }
               </Card.Text>
               
             </Card.Body>
