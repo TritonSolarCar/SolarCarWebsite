@@ -16,7 +16,7 @@ export default function Event(props) {
             <Card.Body>
               <Card.Title>{ props.title }</Card.Title>
               <Card.Text>
-                <small class="text-muted">{ props.date }</small>
+                <small className="text-muted">{ props.date }</small>
               </Card.Text>
               <Card.Text>
               { props.description }
