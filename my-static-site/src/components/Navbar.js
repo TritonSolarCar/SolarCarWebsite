@@ -10,6 +10,7 @@ export default  function Navbar() {
       <Link to="/dynamic">Dynamic</Link>
       <Link to="/welcome">Welcome</Link>
       <Link to="/donations">Donations</Link>
+      <Link to="/timeline">Timeline</Link>
     </nav>
   )
 };
