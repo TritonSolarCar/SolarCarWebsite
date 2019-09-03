@@ -6,6 +6,10 @@ const PayPalButtonStyle = {
   marginRight: 'auto'
 }
 
+const FormStyle = {
+  marginBottom: '2em'
+}
+
 export default  function PayPalButton() {
   return (
     <div>
@@ -13,6 +17,7 @@ export default  function PayPalButton() {
         action="https://www.paypal.com/cgi-bin/webscr"
         method="post"
         target="_top"
+        style={ FormStyle }
       >
         <input type="hidden" name="cmd" value="_donations" />
         <input type="hidden" name="business" value="4GU59ZM4KEAWJ" />
