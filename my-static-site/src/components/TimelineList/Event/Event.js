@@ -6,7 +6,10 @@ import Col from 'react-bootstrap/Col'
 export default function Event(props) {
 
   return (
-    <Card style={{ width: '100%' }}>
+    <Card
+      className='my-3'
+      style={{ width: '100%' }}
+    >
       <Row noGutters={ true }>
         <Col md="4">
           <Card.Img variant="left" src={ props.img } />
