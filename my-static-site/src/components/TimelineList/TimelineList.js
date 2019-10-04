@@ -9,7 +9,6 @@ export default function TimelineList(props) {
 
   return (
     <div>
-      <h1>TimelineList</h1>
       <CurrentMonth
         month="May"
         year="2019"
