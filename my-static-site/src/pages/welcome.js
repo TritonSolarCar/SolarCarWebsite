@@ -19,10 +19,6 @@ const welcomeStyle = {
   "alignItems": "center"
 }
 
-const titleStyle = {
-
-}
-
 const linkStyle = {
   "textDecoration": "none",
 
