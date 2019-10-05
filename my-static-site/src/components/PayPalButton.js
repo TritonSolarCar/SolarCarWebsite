@@ -10,9 +10,17 @@ const FormStyle = {
   marginBottom: '2em'
 }
 
+const DonateStyle = {
+  border: '1px solid black',
+  borderRadius: '5px',
+  width: '50%',
+  margin: 'auto'
+}
+
 export default  function PayPalButton() {
   return (
-    <div>
+    <div className="my-5" style={ DonateStyle }>
+      <h1 className="text-center">Donate Here</h1>
       <form
         action="https://www.paypal.com/cgi-bin/webscr"
         method="post"
