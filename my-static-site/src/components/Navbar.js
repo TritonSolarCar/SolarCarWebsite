@@ -3,14 +3,11 @@ import { Link } from 'components/Router'
 
 export default  function Navbar() {
   return (
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/blog">Blog</Link>
-      <Link to="/dynamic">Dynamic</Link>
+    <nav className="navbar navbar-light" >
       <Link to="/welcome">Welcome</Link>
-      <Link to="/donations">Donations</Link>
+      <Link to="/team">Team</Link>
       <Link to="/timeline">Timeline</Link>
+      <Link to="/donations">Donations</Link>
     </nav>
   )
 };
