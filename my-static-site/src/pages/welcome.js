@@ -52,7 +52,7 @@ export default function Welcome() {
         <h5>
           We are Engineers for a Sustainable World
         </h5>
-        <Link to="/" id="join-button" style={linkStyle}>
+        <Link to="/team" id="join-button" style={linkStyle}>
             JOIN US
         </Link>
       </div>
