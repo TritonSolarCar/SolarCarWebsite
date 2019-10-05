@@ -1,4 +1,5 @@
 import React from 'react'
+import { Head } from 'react-static'
 
 import { Link } from 'components/Router'
 
@@ -42,6 +43,9 @@ const linkStyle = {
 export default function Welcome() {
   return (
     <div style={welcomeStyle}>
+      <Head>
+        <title>UCSD Solar Car</title>
+      </Head>
       <div className="text-center text-white">
         <h1
           className="display-3  font-weight-bold"
