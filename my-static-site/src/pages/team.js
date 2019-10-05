@@ -7,8 +7,8 @@ import Image from 'react-bootstrap/Image'
 import pieChart from "../images/major-distribution.png";
 import teamImage from "../images/team.jpg";
 
+import '../css/icon.css'
 import '../css/team.css';
-
 
 
 class Team extends Component {
