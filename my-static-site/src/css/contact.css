@@ -1,0 +1,15 @@
+/* Contact Header */
+#contact-header {
+  line-height: 1.5em;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  color: inherit;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.contact-form {
+  border: 1px solid grey;
+  border-radius: 1em;
+  padding: 2em;
+}
