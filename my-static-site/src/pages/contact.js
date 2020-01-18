@@ -9,7 +9,7 @@ import Button from "react-bootstrap/Button";
 import "../css/icon.css";
 import "../css/contact.css";
 
-const formEndpoint = "https://formspree.io/xdqknwlm";
+const formEndpoint = "https://formspree.io/mdoewlbn";
 
 class Contact extends Component {
   render() {
