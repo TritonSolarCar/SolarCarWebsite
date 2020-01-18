@@ -15,7 +15,7 @@
     "react": "^16.8.2",
     "react-bootstrap": "^1.0.0-beta.10",
     "react-dom": "^16.8.2",
-    "react-static": "^7.0.0",
+    "react-static": "^7.1.0",
     "react-static-plugin-reach-router": "^7.0.0",
     "react-static-plugin-sitemap": "^7.0.0",
     "react-static-plugin-source-filesystem": "^7.0.0"
