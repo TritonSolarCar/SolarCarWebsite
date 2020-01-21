@@ -83,7 +83,7 @@ class Team extends Component {
                       <p className="profile-header">
                         Project Lead | Class of 2020 | Mechanical Engineering
                       </p>
-                      <p className="profile-description">
+                      <p className="profile-description text-muted">
                         “My fondest memory of the team would probably be our
                         last end of the year bonfire of which I teamed up with a
                         few other deviant members to spook the rest of the team.
@@ -104,14 +104,14 @@ class Team extends Component {
                       <p className="profile-header">
                         Mechanical Lead | Class of 2020 | Mechanical Engineering
                       </p>
-                      <p className="profile-description">
+                      <p className="profile-description text-muted">
                         “As the mechanical lead it is my job to ensure that the
                         team is continuously working on the car’s physical and
                         CAD design in order to compete in any potential upcoming
                         solar race. Securing the correct tools, guidance and
                         services is essential.”
                       </p>
-                      <p className="profile-description">
+                      <p className="profile-description text-muted">
                         “I would say that the first summer I joined the solar
                         car team was the best. We would work late nights on a
                         project that we loved and eat and bond together
@@ -131,12 +131,12 @@ class Team extends Component {
                       <p className="profile-header">
                         Electrical Lead | Class of 2020 | Bioengineering
                       </p>
-                      <p className="profile-description">
+                      <p className="profile-description text-muted">
                         “My role in the team is to provide a level of guidance
                         in the design and implementation of the electrical
                         system for the vehicle.”
                       </p>
-                      <p className="profile-description">
+                      <p className="profile-description text-muted">
                         “My fondest memories are the bonfires that we usually
                         host because they’re always fun and a great way to bond
                         with the other members of the team.”

@@ -37,12 +37,6 @@ section .left {
   }
 }
 
-#introduction {
-  opacity: 80%;
-  /*background-color: rgba(255, 253, 153, 0.623);
-  padding: 2em;
-  border-radius: 25px;*/
-}
 /*h3 {
   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   font-size: 14px;
@@ -120,7 +114,6 @@ pre {
   vertical-align: middle;
   border-radius: 50%;
   border: 5px outset #1c6ea4;
-  opacity: 75%;
 }
 .symbol {
   line-height: 180px;

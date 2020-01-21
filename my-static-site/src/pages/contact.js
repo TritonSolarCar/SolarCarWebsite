@@ -40,20 +40,12 @@ class Contact extends Component {
                 <Form.Row>
                   <Form.Group as={Col} controlId="formGridName">
                     <Form.Label>Name</Form.Label>
-                    <Form.Control
-                      name="name"
-                      type="text"
-                      placeholder="Enter name"
-                    />
+                    <Form.Control name="name" placeholder="Enter name" />
                   </Form.Group>
 
                   <Form.Group as={Col} controlId="formGridEmail">
                     <Form.Label>Email</Form.Label>
-                    <Form.Control
-                      name="email"
-                      type="email"
-                      placeholder="Enter email"
-                    />
+                    <Form.Control name="email" placeholder="Enter email" />
                   </Form.Group>
                 </Form.Row>
 
