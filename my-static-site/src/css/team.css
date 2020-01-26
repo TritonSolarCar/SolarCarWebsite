@@ -17,7 +17,7 @@ section .left {
 }*/
 
 #first-text {
-  font-family: Jura;
+  font-family: Acme;
   font-size: 70px;
   font-style: normal;
   font-variant: normal;
@@ -69,7 +69,10 @@ pre {
   font-weight: 400;
   line-height: 18.5714px;
 }*/
-
+#introduction {
+  font-family: "Jaldi", sans-serif;
+  font-size: 1.1em;
+}
 .profile-image {
   margin: auto;
   margin-bottom: 2em;
@@ -88,18 +91,26 @@ pre {
 #electrical-lead-img {
   background-image: url("../images/Bryan Thai.jpg");
 }
+.section-name {
+  font-family: Acme;
+}
 .profile-header {
-  font-size: 0.75em;
+  font-size: 0.9em;
   opacity: 75%;
-  color: rgb(163, 150, 31);
+  color: rgb(216, 148, 0);
+  font-family: Jaldi;
 }
 .profile-description {
   text-align: left;
   padding: 0.7em;
-  font-size: 0.75em;
+  font-size: 0.9em;
+}
+.team-description {
+  font-size: 1.1em;
 }
 .text-muted {
   padding: 0.7em;
+  font-family: "Jaldi", sans-serif;
 }
 .lead {
   margin-bottom: 1em;

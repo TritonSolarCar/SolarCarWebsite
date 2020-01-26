@@ -28,7 +28,9 @@ class Contact extends Component {
             <header className="text-center">
               <span className="icon fa-envelope featured" />
               <h2 id="contact-header">Get In Touch</h2>
-              <p>Use the form below to send us an email!</p>
+              <p id="contact-subtext">
+                Use the form below to send us an email!
+              </p>
             </header>
 
             <section className="wrapper style2 special container medium">

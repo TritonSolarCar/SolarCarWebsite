@@ -35,6 +35,16 @@ class Team extends Component {
             type="text/css"
             href="//fonts.googleapis.com/css?family=Jura"
           />
+          <link
+            href="https://fonts.googleapis.com/css?family=Jaldi&display=swap"
+            rel="stylesheet"
+            type="text/css"
+          ></link>
+          <link
+            href="https://fonts.googleapis.com/css?family=Acme&display=swap"
+            rel="stylesheet"
+            type="text/css"
+          ></link>
         </Head>
         <Navbar />
         <Image src={teamImage} fluid alt="Team" />
@@ -78,7 +88,7 @@ class Team extends Component {
                           id="project-lead-img"
                           className="profile-image"
                         ></div>
-                        <h4>Kieu Huynh</h4>
+                        <h4 className="section-name">Kieu Huynh</h4>
                       </header>
                       <p className="profile-header">
                         Project Lead | Class of 2020 | Mechanical Engineering
@@ -99,7 +109,7 @@ class Team extends Component {
                           id="mechanical-lead-img"
                           className="profile-image"
                         ></div>
-                        <h4>Roy Choi</h4>
+                        <h4 className="section-name">Roy Choi</h4>
                       </header>
                       <p className="profile-header">
                         Mechanical Lead | Class of 2020 | Mechanical Engineering
@@ -126,7 +136,7 @@ class Team extends Component {
                           id="electrical-lead-img"
                           className="profile-image"
                         ></div>
-                        <h4>Bryan Thai</h4>
+                        <h4 className="section-name">Bryan Thai</h4>
                       </header>
                       <p className="profile-header">
                         Electrical Lead | Class of 2020 | Bioengineering
@@ -154,15 +164,17 @@ class Team extends Component {
                         <span className="icon featured fa-briefcase symbol" />
                       </div>
                       <header>
-                        <h4>Operations Team</h4>
+                        <h4 className="section-name">Operations Team</h4>
                       </header>
-                      <p className="text-muted">
+                      <p className="text-muted team-description">
                         Our job is to provide the tools necessary for the other
                         subteams to progress effortlessly. This includes efforts
                         towards public relations, sponsorship, and competition
                         logistics.
                       </p>
-                      <p className="text-muted">Camila Paik, Angela Yu</p>
+                      <p className="text-muted team-description">
+                        Camila Paik, Angela Yu
+                      </p>
                     </section>
                   </div>
                   <div className="col-md-4 col-12-narrower other-members">
@@ -171,13 +183,13 @@ class Team extends Component {
                         <span className="icon featured fa-cogs symbol" />
                       </div>
                       <header>
-                        <h4>Mechanical Team</h4>
+                        <h4 className="section-name">Mechanical Team</h4>
                       </header>
-                      <p className="text-muted">
+                      <p className="text-muted team-description">
                         Responsibilities include the design, analysis, and
                         manufacturing on the car’s structure
                       </p>
-                      <p className="text-muted">
+                      <p className="text-muted team-description">
                         Roy Choi, Janet He, Eugine Lin, Angela Yu, Canwin Tso,
                         Sean Orellana, Jennie Coates, Arjun Ray, Arturo Medina,
                         Jesse Sanchez, Dustin Tengdyantono, Billy Park, Jacob
@@ -191,9 +203,9 @@ class Team extends Component {
                         <span className="icon featured fa-bolt symbol" />
                       </div>
                       <header>
-                        <h4>Electrical Team</h4>
+                        <h4 className="section-name">Electrical Team</h4>
                       </header>
-                      <p className="text-muted">
+                      <p className="text-muted team-description">
                         Our job as the electrical subteam is to bring the car to
                         life by providing the electricity needed to power the
                         motor, whether that be through the solar array or the
@@ -201,7 +213,7 @@ class Team extends Component {
                         operate using a suite of sensors throughout the car that
                         monitor and provide feedback on its current condition.
                       </p>
-                      <p className="text-muted">
+                      <p className="text-muted team-description">
                         Bryan Thai, Dan Nguyen, Vivian Lee, Sara Dorr, Madeline
                         Tjoa, Jonathan Venegas, Daniel Renfrow
                       </p>
