@@ -37,6 +37,13 @@ You might see this warning here:
 
 It's alright to ignore this for now since it doesn't interfere with deployment and testing.
 
+## Routing / paths / adding pages
+
+We're using dynamic routing with React Router
+https://github.com/react-static/react-static/blob/master/docs/guides/dynamic-routes-react-router.md
+
+What this means: all paths specified by the url will be searched for in the src/pages/ folder and rendered. For example, if the url path is specified as /team, then react-static will search for the team.js file to render the page. If a routing path doesn't exist, the default is searched for (the 404.js file). When adding a new page, add it to the src/pages folder.
+
 ## Contact page
 
 We're using https://formspree.io/ to send contact form entries directly to the ucsdsolarcar email.
