@@ -22,12 +22,22 @@ const donateTextStyle = {
   color: "#244e91"
 };
 
+const noteTextStyle = {
+  fontFamily: "Jaldi",
+  textAlign: "center",
+  padding: "0 10%"
+};
+
 export default function PayPalButton() {
   return (
     <div className="my-5">
       <h1 className="text-center" style={donateTextStyle}>
         Donate Here
       </h1>
+      <p style={noteTextStyle}>
+        *Note: specify that this donation is for the solar car project in the
+        drop down menu.
+      </p>
       <form
         action="https://www.paypal.com/cgi-bin/webscr"
         method="post"

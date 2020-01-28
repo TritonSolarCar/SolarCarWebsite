@@ -1,3 +1,11 @@
+#donation-header {
+  display: flex;
+  text-align: center;
+  height: 20em;
+}
+#donation-header h1 {
+  margin: auto;
+}
 #thank-you-message {
   font-family: "Jaldi";
   font-size: 1.3em;
@@ -13,21 +21,31 @@ hr {
   margin: 0em 30em;
   padding: 0;
 }
-
-#looking-for {
-  padding: 4em 12%;
+#looking-for-container {
   background: rgb(240, 240, 240);
+  text-align: center;
+  padding: 0 11%;
+}
+#looking-for {
+  text-align: left;
+  margin: auto;
+  width: 69em;
+  padding: 4em 0;
 }
 @media screen and (max-width: 736px) {
+  #looking-for-container {
+    padding: 0;
+  }
   #looking-for {
-    padding: 4em 15%;
+    width: auto;
+    padding: 4em;
   }
 }
 
 .donation-sub-heading {
   color: #244e91;
   width: 100%;
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
   font-family: Acme;
 }
 

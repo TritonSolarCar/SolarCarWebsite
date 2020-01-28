@@ -20,31 +20,6 @@ class Team extends Component {
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
           ></link>
-          <link
-            rel="stylesheet"
-            type="text/css"
-            href="//fonts.googleapis.com/css?family=Cantarell"
-          />
-          <link
-            rel="stylesheet"
-            type="text/css"
-            href="//fonts.googleapis.com/css?family=Open+Sans"
-          />
-          <link
-            rel="stylesheet"
-            type="text/css"
-            href="//fonts.googleapis.com/css?family=Jura"
-          />
-          <link
-            href="https://fonts.googleapis.com/css?family=Jaldi&display=swap"
-            rel="stylesheet"
-            type="text/css"
-          ></link>
-          <link
-            href="https://fonts.googleapis.com/css?family=Acme&display=swap"
-            rel="stylesheet"
-            type="text/css"
-          ></link>
         </Head>
         <Navbar />
         <Image src={teamImage} fluid alt="Team" />
